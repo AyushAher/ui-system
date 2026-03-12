@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@aerovia/ui": ["packages/ui/src"],
+      "@aerovia/tokens": ["packages/tokens/src"]
+    },
+    "strict": true,
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@aerovia/ui",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1"
+  },
+  "dependencies": {
+    "@aerovia/tokens": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}
